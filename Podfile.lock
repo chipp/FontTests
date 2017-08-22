@@ -1,0 +1,15 @@
+PODS:
+  - Nimble (7.0.1)
+  - SwiftGen (5.1.0)
+
+DEPENDENCIES:
+  - Nimble
+  - SwiftGen
+
+SPEC CHECKSUMS:
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  SwiftGen: 4b12574d62b1f3de1f5c31c90dcfd14f75925b7e
+
+PODFILE CHECKSUM: ec9163dd6f0d2a9cbf7866a2b9054687132d8109
+
+COCOAPODS: 1.3.1

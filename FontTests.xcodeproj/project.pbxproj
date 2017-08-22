@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65FD416A754756C2BF1C327F /* Pods_Tests_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24DE4092C0CC97556B97911 /* Pods_Tests_macOSTests.framework */; };
+		B5B2EFB51F4CD3070021930D /* CommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EFB41F4CD3070021930D /* CommonTests.swift */; };
+		B5B2EFB61F4CD3090021930D /* CommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EFB41F4CD3070021930D /* CommonTests.swift */; };
+		B5B2EFB81F4CD3490021930D /* swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFB71F4CD3490021930D /* swift3.stencil */; };
+		B5B2EFBA1F4CD51E0021930D /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EFB91F4CD51E0021930D /* Fonts.swift */; };
+		B5B2EFBB1F4CD5220021930D /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2EFB91F4CD51E0021930D /* Fonts.swift */; };
+		B5B2EFCF1F4CD57F0021930D /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFBD1F4CD57F0021930D /* Lato-Black.ttf */; };
+		B5B2EFD01F4CD57F0021930D /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFBD1F4CD57F0021930D /* Lato-Black.ttf */; };
+		B5B2EFD11F4CD57F0021930D /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFBE1F4CD57F0021930D /* Lato-BlackItalic.ttf */; };
+		B5B2EFD21F4CD57F0021930D /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFBE1F4CD57F0021930D /* Lato-BlackItalic.ttf */; };
+		B5B2EFD31F4CD57F0021930D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFBF1F4CD57F0021930D /* Lato-Bold.ttf */; };
+		B5B2EFD41F4CD57F0021930D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFBF1F4CD57F0021930D /* Lato-Bold.ttf */; };
+		B5B2EFD51F4CD57F0021930D /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC01F4CD57F0021930D /* Lato-BoldItalic.ttf */; };
+		B5B2EFD61F4CD57F0021930D /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC01F4CD57F0021930D /* Lato-BoldItalic.ttf */; };
+		B5B2EFD71F4CD57F0021930D /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC11F4CD57F0021930D /* Lato-Hairline.ttf */; };
+		B5B2EFD81F4CD57F0021930D /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC11F4CD57F0021930D /* Lato-Hairline.ttf */; };
+		B5B2EFD91F4CD57F0021930D /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC21F4CD57F0021930D /* Lato-HairlineItalic.ttf */; };
+		B5B2EFDA1F4CD57F0021930D /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC21F4CD57F0021930D /* Lato-HairlineItalic.ttf */; };
+		B5B2EFDB1F4CD57F0021930D /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC31F4CD57F0021930D /* Lato-Heavy.ttf */; };
+		B5B2EFDC1F4CD57F0021930D /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC31F4CD57F0021930D /* Lato-Heavy.ttf */; };
+		B5B2EFDD1F4CD57F0021930D /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC41F4CD57F0021930D /* Lato-HeavyItalic.ttf */; };
+		B5B2EFDE1F4CD57F0021930D /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC41F4CD57F0021930D /* Lato-HeavyItalic.ttf */; };
+		B5B2EFDF1F4CD57F0021930D /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC51F4CD57F0021930D /* Lato-Italic.ttf */; };
+		B5B2EFE01F4CD57F0021930D /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC51F4CD57F0021930D /* Lato-Italic.ttf */; };
+		B5B2EFE11F4CD57F0021930D /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC61F4CD57F0021930D /* Lato-Light.ttf */; };
+		B5B2EFE21F4CD57F0021930D /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC61F4CD57F0021930D /* Lato-Light.ttf */; };
+		B5B2EFE31F4CD57F0021930D /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC71F4CD57F0021930D /* Lato-LightItalic.ttf */; };
+		B5B2EFE41F4CD57F0021930D /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC71F4CD57F0021930D /* Lato-LightItalic.ttf */; };
+		B5B2EFE51F4CD57F0021930D /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC81F4CD57F0021930D /* Lato-Medium.ttf */; };
+		B5B2EFE61F4CD57F0021930D /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC81F4CD57F0021930D /* Lato-Medium.ttf */; };
+		B5B2EFE71F4CD57F0021930D /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC91F4CD57F0021930D /* Lato-MediumItalic.ttf */; };
+		B5B2EFE81F4CD57F0021930D /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFC91F4CD57F0021930D /* Lato-MediumItalic.ttf */; };
+		B5B2EFE91F4CD57F0021930D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCA1F4CD57F0021930D /* Lato-Regular.ttf */; };
+		B5B2EFEA1F4CD57F0021930D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCA1F4CD57F0021930D /* Lato-Regular.ttf */; };
+		B5B2EFEB1F4CD57F0021930D /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCB1F4CD57F0021930D /* Lato-Semibold.ttf */; };
+		B5B2EFEC1F4CD57F0021930D /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCB1F4CD57F0021930D /* Lato-Semibold.ttf */; };
+		B5B2EFED1F4CD57F0021930D /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCC1F4CD57F0021930D /* Lato-SemiboldItalic.ttf */; };
+		B5B2EFEE1F4CD57F0021930D /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCC1F4CD57F0021930D /* Lato-SemiboldItalic.ttf */; };
+		B5B2EFEF1F4CD57F0021930D /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCD1F4CD57F0021930D /* Lato-Thin.ttf */; };
+		B5B2EFF01F4CD57F0021930D /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCD1F4CD57F0021930D /* Lato-Thin.ttf */; };
+		B5B2EFF11F4CD57F0021930D /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCE1F4CD57F0021930D /* Lato-ThinItalic.ttf */; };
+		B5B2EFF21F4CD57F0021930D /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5B2EFCE1F4CD57F0021930D /* Lato-ThinItalic.ttf */; };
+		BACB927DD1C4D35B1069EA8E /* Pods_Tests_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3D030384D59B5929F0515C /* Pods_Tests_iOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FA9A7411DDA33A680408D94 /* Pods-Tests-macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-macOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65D9A26249CF31DBE63928BA /* Pods-Tests-macOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-macOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A403F10A332A6E68AFCB7F91 /* Pods-Tests-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-iOSTests/Pods-Tests-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5B2EF9F1F4CD2DA0021930D /* macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B2EFAC1F4CD2E60021930D /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B2EFB41F4CD3070021930D /* CommonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTests.swift; sourceTree = "<group>"; };
+		B5B2EFB71F4CD3490021930D /* swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swift3.stencil; sourceTree = "<group>"; };
+		B5B2EFB91F4CD51E0021930D /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B5B2EFBD1F4CD57F0021930D /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		B5B2EFBE1F4CD57F0021930D /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B5B2EFBF1F4CD57F0021930D /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		B5B2EFC01F4CD57F0021930D /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B5B2EFC11F4CD57F0021930D /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		B5B2EFC21F4CD57F0021930D /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		B5B2EFC31F4CD57F0021930D /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		B5B2EFC41F4CD57F0021930D /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		B5B2EFC51F4CD57F0021930D /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		B5B2EFC61F4CD57F0021930D /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		B5B2EFC71F4CD57F0021930D /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		B5B2EFC81F4CD57F0021930D /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		B5B2EFC91F4CD57F0021930D /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B5B2EFCA1F4CD57F0021930D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B5B2EFCB1F4CD57F0021930D /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		B5B2EFCC1F4CD57F0021930D /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		B5B2EFCD1F4CD57F0021930D /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		B5B2EFCE1F4CD57F0021930D /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CB3D030384D59B5929F0515C /* Pods_Tests_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24DE4092C0CC97556B97911 /* Pods_Tests_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1116A680C1F7E0CF914D84D /* Pods-Tests-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-iOSTests/Pods-Tests-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B2EF9C1F4CD2DA0021930D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FD416A754756C2BF1C327F /* Pods_Tests_macOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B2EFA91F4CD2E60021930D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACB927DD1C4D35B1069EA8E /* Pods_Tests_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598B9D3E26BC1521353B6F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A403F10A332A6E68AFCB7F91 /* Pods-Tests-iOSTests.debug.xcconfig */,
+				F1116A680C1F7E0CF914D84D /* Pods-Tests-iOSTests.release.xcconfig */,
+				0FA9A7411DDA33A680408D94 /* Pods-Tests-macOSTests.debug.xcconfig */,
+				65D9A26249CF31DBE63928BA /* Pods-Tests-macOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5B2EF941F4CD2B00021930D = {
+			isa = PBXGroup;
+			children = (
+				B5B2EFB71F4CD3490021930D /* swift3.stencil */,
+				B5B2EFB41F4CD3070021930D /* CommonTests.swift */,
+				B5B2EFB91F4CD51E0021930D /* Fonts.swift */,
+				B5B2EFBC1F4CD57F0021930D /* Fonts */,
+				B5B2EFA01F4CD2DA0021930D /* Products */,
+				598B9D3E26BC1521353B6F8A /* Pods */,
+				C59E18B65C0D9F6BB584A3DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B2EFA01F4CD2DA0021930D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2EF9F1F4CD2DA0021930D /* macOSTests.xctest */,
+				B5B2EFAC1F4CD2E60021930D /* iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B2EFBC1F4CD57F0021930D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2EFBD1F4CD57F0021930D /* Lato-Black.ttf */,
+				B5B2EFBE1F4CD57F0021930D /* Lato-BlackItalic.ttf */,
+				B5B2EFBF1F4CD57F0021930D /* Lato-Bold.ttf */,
+				B5B2EFC01F4CD57F0021930D /* Lato-BoldItalic.ttf */,
+				B5B2EFC11F4CD57F0021930D /* Lato-Hairline.ttf */,
+				B5B2EFC21F4CD57F0021930D /* Lato-HairlineItalic.ttf */,
+				B5B2EFC31F4CD57F0021930D /* Lato-Heavy.ttf */,
+				B5B2EFC41F4CD57F0021930D /* Lato-HeavyItalic.ttf */,
+				B5B2EFC51F4CD57F0021930D /* Lato-Italic.ttf */,
+				B5B2EFC61F4CD57F0021930D /* Lato-Light.ttf */,
+				B5B2EFC71F4CD57F0021930D /* Lato-LightItalic.ttf */,
+				B5B2EFC81F4CD57F0021930D /* Lato-Medium.ttf */,
+				B5B2EFC91F4CD57F0021930D /* Lato-MediumItalic.ttf */,
+				B5B2EFCA1F4CD57F0021930D /* Lato-Regular.ttf */,
+				B5B2EFCB1F4CD57F0021930D /* Lato-Semibold.ttf */,
+				B5B2EFCC1F4CD57F0021930D /* Lato-SemiboldItalic.ttf */,
+				B5B2EFCD1F4CD57F0021930D /* Lato-Thin.ttf */,
+				B5B2EFCE1F4CD57F0021930D /* Lato-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C59E18B65C0D9F6BB584A3DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D030384D59B5929F0515C /* Pods_Tests_iOSTests.framework */,
+				E24DE4092C0CC97556B97911 /* Pods_Tests_macOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B2EF9E1F4CD2DA0021930D /* macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B2EFA51F4CD2DA0021930D /* Build configuration list for PBXNativeTarget "macOSTests" */;
+			buildPhases = (
+				B24BB3219695D8D5FAD70D10 /* [CP] Check Pods Manifest.lock */,
+				B5B2EF9B1F4CD2DA0021930D /* Sources */,
+				B5B2EF9C1F4CD2DA0021930D /* Frameworks */,
+				B5B2EF9D1F4CD2DA0021930D /* Resources */,
+				44739E1B1BDA6BAD9888E15B /* [CP] Embed Pods Frameworks */,
+				7BFD8BD72B0DDAFF4B18A0A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOSTests;
+			productName = macOSTests;
+			productReference = B5B2EF9F1F4CD2DA0021930D /* macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5B2EFAB1F4CD2E60021930D /* iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B2EFB11F4CD2E60021930D /* Build configuration list for PBXNativeTarget "iOSTests" */;
+			buildPhases = (
+				AD34C3E6062BD876A8164BBE /* [CP] Check Pods Manifest.lock */,
+				B5B2EFA81F4CD2E60021930D /* Sources */,
+				B5B2EFA91F4CD2E60021930D /* Frameworks */,
+				B5B2EFAA1F4CD2E60021930D /* Resources */,
+				A411DAE3A2C2E491ABFBC4F6 /* [CP] Embed Pods Frameworks */,
+				02AC1895406C72DC13EA10C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTests;
+			productName = iOSTests;
+			productReference = B5B2EFAC1F4CD2E60021930D /* iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B2EF951F4CD2B00021930D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					B5B2EF9E1F4CD2DA0021930D = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					B5B2EFAB1F4CD2E60021930D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B5B2EF981F4CD2B00021930D /* Build configuration list for PBXProject "FontTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5B2EF941F4CD2B00021930D;
+			productRefGroup = B5B2EFA01F4CD2DA0021930D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B2EF9E1F4CD2DA0021930D /* macOSTests */,
+				B5B2EFAB1F4CD2E60021930D /* iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B2EF9D1F4CD2DA0021930D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B2EFDF1F4CD57F0021930D /* Lato-Italic.ttf in Resources */,
+				B5B2EFEF1F4CD57F0021930D /* Lato-Thin.ttf in Resources */,
+				B5B2EFE51F4CD57F0021930D /* Lato-Medium.ttf in Resources */,
+				B5B2EFED1F4CD57F0021930D /* Lato-SemiboldItalic.ttf in Resources */,
+				B5B2EFCF1F4CD57F0021930D /* Lato-Black.ttf in Resources */,
+				B5B2EFDD1F4CD57F0021930D /* Lato-HeavyItalic.ttf in Resources */,
+				B5B2EFE11F4CD57F0021930D /* Lato-Light.ttf in Resources */,
+				B5B2EFB81F4CD3490021930D /* swift3.stencil in Resources */,
+				B5B2EFF11F4CD57F0021930D /* Lato-ThinItalic.ttf in Resources */,
+				B5B2EFD71F4CD57F0021930D /* Lato-Hairline.ttf in Resources */,
+				B5B2EFE91F4CD57F0021930D /* Lato-Regular.ttf in Resources */,
+				B5B2EFD11F4CD57F0021930D /* Lato-BlackItalic.ttf in Resources */,
+				B5B2EFEB1F4CD57F0021930D /* Lato-Semibold.ttf in Resources */,
+				B5B2EFE31F4CD57F0021930D /* Lato-LightItalic.ttf in Resources */,
+				B5B2EFDB1F4CD57F0021930D /* Lato-Heavy.ttf in Resources */,
+				B5B2EFD91F4CD57F0021930D /* Lato-HairlineItalic.ttf in Resources */,
+				B5B2EFE71F4CD57F0021930D /* Lato-MediumItalic.ttf in Resources */,
+				B5B2EFD31F4CD57F0021930D /* Lato-Bold.ttf in Resources */,
+				B5B2EFD51F4CD57F0021930D /* Lato-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B2EFAA1F4CD2E60021930D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B2EFE81F4CD57F0021930D /* Lato-MediumItalic.ttf in Resources */,
+				B5B2EFF21F4CD57F0021930D /* Lato-ThinItalic.ttf in Resources */,
+				B5B2EFE41F4CD57F0021930D /* Lato-LightItalic.ttf in Resources */,
+				B5B2EFE61F4CD57F0021930D /* Lato-Medium.ttf in Resources */,
+				B5B2EFDE1F4CD57F0021930D /* Lato-HeavyItalic.ttf in Resources */,
+				B5B2EFDC1F4CD57F0021930D /* Lato-Heavy.ttf in Resources */,
+				B5B2EFEE1F4CD57F0021930D /* Lato-SemiboldItalic.ttf in Resources */,
+				B5B2EFEC1F4CD57F0021930D /* Lato-Semibold.ttf in Resources */,
+				B5B2EFD21F4CD57F0021930D /* Lato-BlackItalic.ttf in Resources */,
+				B5B2EFD81F4CD57F0021930D /* Lato-Hairline.ttf in Resources */,
+				B5B2EFDA1F4CD57F0021930D /* Lato-HairlineItalic.ttf in Resources */,
+				B5B2EFE21F4CD57F0021930D /* Lato-Light.ttf in Resources */,
+				B5B2EFF01F4CD57F0021930D /* Lato-Thin.ttf in Resources */,
+				B5B2EFD41F4CD57F0021930D /* Lato-Bold.ttf in Resources */,
+				B5B2EFD01F4CD57F0021930D /* Lato-Black.ttf in Resources */,
+				B5B2EFEA1F4CD57F0021930D /* Lato-Regular.ttf in Resources */,
+				B5B2EFE01F4CD57F0021930D /* Lato-Italic.ttf in Resources */,
+				B5B2EFD61F4CD57F0021930D /* Lato-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02AC1895406C72DC13EA10C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-iOSTests/Pods-Tests-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44739E1B1BDA6BAD9888E15B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble-macOS/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BFD8BD72B0DDAFF4B18A0A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-macOSTests/Pods-Tests-macOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A411DAE3A2C2E491ABFBC4F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tests-iOSTests/Pods-Tests-iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble-iOS/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-iOSTests/Pods-Tests-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD34C3E6062BD876A8164BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24BB3219695D8D5FAD70D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-macOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B2EF9B1F4CD2DA0021930D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B2EFBA1F4CD51E0021930D /* Fonts.swift in Sources */,
+				B5B2EFB51F4CD3070021930D /* CommonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B2EFA81F4CD2E60021930D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B2EFBB1F4CD5220021930D /* Fonts.swift in Sources */,
+				B5B2EFB61F4CD3090021930D /* CommonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5B2EF991F4CD2B00021930D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		B5B2EF9A1F4CD2B00021930D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		B5B2EFA61F4CD2DA0021930D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA9A7411DDA33A680408D94 /* Pods-Tests-macOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = by.burdukov.macOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5B2EFA71F4CD2DA0021930D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D9A26249CF31DBE63928BA /* Pods-Tests-macOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = macOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = by.burdukov.macOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B5B2EFB21F4CD2E60021930D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A403F10A332A6E68AFCB7F91 /* Pods-Tests-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = by.burdukov.iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5B2EFB31F4CD2E60021930D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1116A680C1F7E0CF914D84D /* Pods-Tests-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = by.burdukov.iOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B2EF981F4CD2B00021930D /* Build configuration list for PBXProject "FontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B2EF991F4CD2B00021930D /* Debug */,
+				B5B2EF9A1F4CD2B00021930D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B2EFA51F4CD2DA0021930D /* Build configuration list for PBXNativeTarget "macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B2EFA61F4CD2DA0021930D /* Debug */,
+				B5B2EFA71F4CD2DA0021930D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B2EFB11F4CD2E60021930D /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B2EFB21F4CD2E60021930D /* Debug */,
+				B5B2EFB31F4CD2E60021930D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B2EF951F4CD2B00021930D /* Project object */;
+}
